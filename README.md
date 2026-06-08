@@ -32,9 +32,7 @@
 - [Knowledge Graph Memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) - <img src="./images/languages/typescript.svg" > A basic implementation of persistent memory using a local knowledge graph. This lets LLM remember information about the user across chats.
 - [Sequential Thinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) - <img src="./images/languages/typescript.svg" > An MCP server implementation that provides a tool for dynamic and reflective problem-solving through a structured thinking process.
 
-### ai_trust
-
-- [TWZRD Agent Intel](https://intel.twzrd.xyz) - <img src="./images/languages/typescript.svg" > On-chain trust scoring for AI agent wallets on Solana. Provides `score_agent(wallet)`, `preflight_check(wallet)` (free), and `get_trust_receipt(wallet)` (x402 paid). Enables agents to verify counterparty wallet identity before micropayments. Config: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - <img src="./images/languages/typescript.svg" > On-chain trust scoring for AI agent wallets on Solana. Provides `score_agent(wallet)`, `preflight_check(wallet)` (free), and `get_trust_receipt(wallet)` (x402 paid). Enables agents to verify counterparty wallet identity before micropayments.
 
 ### analysis
 
